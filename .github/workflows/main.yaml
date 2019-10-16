@@ -1,0 +1,29 @@
+name: build
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  xgo:
+    strategy:
+      matrix:
+        go_version:
+        - 1.12.4
+        - 1.13.x
+    runs-on: ubuntu-latest
+    steps:
+    -
+      name: Checkout
+      uses: actions/checkout@master
+    -
+      name: Build with xgo
+      uses: crazy-max/ghaction-xgo@master
+      with:
+        go_version: ${{ matrix.go_version }}
+        dest: build
+        prefix: myapp
+        targets: linux/386,linux/amd64,linux/arm,linux/arm64
+        v: true
+        x: false
+        ldflags: -s -w
