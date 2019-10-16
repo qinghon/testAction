@@ -26,12 +26,10 @@ jobs:
         v: true
         x: false
         ldflags: -s -w
-    -
-      name: osx build
-      uses: shoukoo/golang-pipeline/go1.12/release@master
-      if: github.event.action == 'published'
+    - name: Create release on GitHub
+      uses: docker://goreleaser/goreleaser:latest
+      with:
+        args: release
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GOOS: linux
-        GOARCH: arm64
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
