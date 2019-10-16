@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e2250e-d417-4f1c-8d40-419650fccd52" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +36,14 @@
         <counts>
           <entry key="Makefile" value="14" />
           <entry key="go" value="36" />
-          <entry key="yaml" value="23" />
+          <entry key="yaml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Go" value="36" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="YAML" value="23" />
+          <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.github/workflows/main.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="564">
+              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -213,8 +212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/main.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="564">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
